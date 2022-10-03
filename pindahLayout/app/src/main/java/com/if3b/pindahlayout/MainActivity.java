@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        getSupportActionBar().setTitle("Layout A");
          RelativeLayout relativeLayout;
 
 //      Cari Id
@@ -30,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         btnPindah.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-               
+
                 Intent pindah = new Intent(MainActivity.this, secondActivity.class);
                 startActivity(pindah);
             }
