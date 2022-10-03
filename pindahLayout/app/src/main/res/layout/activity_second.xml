@@ -5,10 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".secondActivity">
-<LinearLayout
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    >
+
 
 
     <TextView
@@ -18,7 +15,18 @@
         android:text="Selamat datang YGY"
         android:layout_centerInParent="true"
         android:textColor="@color/black"
-        android:textSize="100px"
+        android:textSize="70px"
         />
-</LinearLayout>
+    <TextView
+        android:id="@+id/tv_nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        android:layout_below="@id/tv_selamat_datang"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+
+
 </RelativeLayout>

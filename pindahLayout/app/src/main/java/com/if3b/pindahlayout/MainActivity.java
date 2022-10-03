@@ -10,9 +10,10 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import org.w3c.dom.Text;
+
 
 public class MainActivity extends AppCompatActivity {
-
 //    Deklarasi
     Button btnPindah;
 
@@ -22,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         getSupportActionBar().setTitle("Layout A");
-         RelativeLayout relativeLayout;
+
 
 //      Cari Id
         btnPindah = findViewById(R.id.btn_pindah);

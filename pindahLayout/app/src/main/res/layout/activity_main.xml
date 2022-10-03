@@ -12,12 +12,21 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tombol untuk berpindah Universe"
+        android:text="Silahkan Isi nama untuk melanjutkan"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="440px"
+        android:layout_marginTop="220px"
         android:textColor="@color/black"
         android:textFontWeight="20"
         android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/et_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Nama"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="20px"
+        android:layout_above="@id/btn_pindah"
         />
     <Button
         android:id="@+id/btn_pindah"
