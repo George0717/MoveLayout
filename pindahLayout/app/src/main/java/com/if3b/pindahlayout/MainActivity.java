@@ -10,6 +10,7 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+
 public class MainActivity extends AppCompatActivity {
 
 //    Deklarasi
@@ -20,16 +21,16 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        final RelativeLayout relativeLayout;
+         RelativeLayout relativeLayout;
 
 //      Cari Id
         btnPindah = findViewById(R.id.btn_pindah);
-        relativeLayout = findViewById(R.id.tv_selamat_datang);
+
 
         btnPindah.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                relativeLayout.setBackgroundResource(R.color.cool);
+               
                 Intent pindah = new Intent(MainActivity.this, secondActivity.class);
                 startActivity(pindah);
             }
