@@ -13,9 +13,7 @@ public class secondActivity extends AppCompatActivity {
         setContentView(R.layout.activity_second);
         getSupportActionBar().setTitle("Layout B");
 
-        TextView nama;
 
-        nama = findViewById(R.id.tv_nama);
 
 
     }
