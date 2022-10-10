@@ -18,6 +18,6 @@ public class secondActivity extends AppCompatActivity {
 
         Intent terima = getIntent();
         String yNama = terima.getStringExtra("xNama");
-       tvNama.setText(yNama);
+        tvNama.setText(yNama);
     }
 }
