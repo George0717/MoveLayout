@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">belajarTableLayout</string>
+    <string name="form_login">form_login</string>
+    <string name="Username">username</string>
+</resources>

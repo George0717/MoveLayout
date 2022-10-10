@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="16dp"
+    android:stretchColumns="1"
+
+    tools:context=".MainActivity">
+
+    <TableRow>
+        <TextView
+            android:text="@string/form_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/uk_text"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_span="2"
+            />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="@string/Username"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="@dimen/uk_text"
+            android:layout_column="0"
+            android:layout_margin="8dp"
+            />
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:hint="masukan username"
+            android:layout_column="1"
+            android:textSize="20dp"
+            />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="Password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/uk_text"
+            android:layout_margin="8dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="masukan password"
+            android:inputType="textPassword"
+            />
+    </TableRow>
+
+</TableLayout>
